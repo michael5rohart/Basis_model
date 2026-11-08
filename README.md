@@ -53,3 +53,26 @@ git add .
 git status
 git commit -m "Korte uitleg van wat je veranderde"
 git push
+
+### Branches
+We werken niet rechtstreeks op `main`. `main` blijft de stabiele versie. Voor nieuw werk maak je een extra branch.
+```
+git branch
+git checkout -b html-skelet
+```
+`git branch` toont op welke tak je zit. `git checkout -b html-skelet` maakt een nieuwe branch en zet je er meteen op. Kies een duidelijke naam, zoals `readme` of `css-layout`.
+Daarna gewoon committen en de eerste keer zo pushen:
+```
+git add .
+git commit -m "Korte uitleg van wat je veranderde"
+git push -u origin html-skelet
+```
+De keren erna volstaat `git push`.
+Als het werk klopt, voeg je de branch samen met `main`:
+```
+git checkout main
+git pull
+git merge html-skelet
+git push
+```
+Samenwerken kan ook via een pull request op GitHub: daar bekijk je de verschillen eerst, en pas daarna komt de code in `main`.
