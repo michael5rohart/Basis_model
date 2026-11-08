@@ -7,18 +7,18 @@ Werk van boven naar beneden. Wat af is, vink je af.
 
 ## Nu bezig
 
-- [x ] README invullen (namen, link naar de repo, mappenstructuur controleren)
-- [x ] README committen en pushen
+- [x] README invullen (namen, link naar de repo, mappenstructuur controleren)
+- [x] README committen en pushen
 
 ---
 
 ## Stap 1 — Project opzetten
 
 - [x] VS Code, extensies en Git installeren
-- [ ] GitHub-repo, mappenstructuur en README
-  - [ ] Mappen `css/`, `js/`, `img/` en `docs/` staan goed
-  - [ ] HTML-pagina's bestaan: index, diensten, realisaties, over-ons, contact, privacy
-  - [ ] `docs/logboek.md` en `docs/todo.md` bestaan
+- [x] GitHub-repo, mappenstructuur en README
+  - [x] Mappen `css/`, `js/`, `img/` en `docs/` staan goed
+  - [x] HTML-pagina's bestaan: index, diensten, realisaties, over-ons, contact, privacy
+  - [x] `docs/logboek.md` en `docs/todo.md` bestaan
 
 ---
 
