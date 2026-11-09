@@ -23,7 +23,67 @@
        
     </header>
     <main id="inhoud">
+        <section class="intro">
+            <h1>Contact</h1>
+            <p>[korte zin : we horen graag van u]</p>
+        </section>
 
+        <section class="gegevens">
+            <h2>Contactgegevens</h2>
+            <address>
+                <p>[naam zaak]</p>
+                <p>[adres]</p>
+                <p><a href="tel:+32000000000">[telefoon]</a></p>
+                <p><a href="mailto:info@voorbeeld.be">[Email]</a></p>
+            </address>
+        </section>
+
+        <section class="formulier">
+            <h2>Stuur ons een bericht</h2>
+            <form action="#" method="post">
+                <label for="naam">Naam</label>
+                <input type="text" id="naam" name="naam" autocomplete="name" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+
+                <label for="telefoon">Telefoon (optioneel)</label>
+                <input type="tel" id="telefoon" name="telefoon" autocomplete="tel">
+
+                <label for="bericht">Bericht</label>
+                <textarea id="bericht" name="bericht" rows="6" required></textarea>
+
+                <input type="checkbox" id="privacy" name="privacy" required>
+                <label for="privacy">Ik ga akkoord met de <a href="privacy.html">privacyverklaring</a></label>
+
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+        <section class="openingsuren">
+            <h2>Openingsuren</h2>
+            <table>
+            <caption>Openingsuren van [Naam zaak]</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Dag</th>
+                        <th scope="col">Uren</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr><th scope="row">Maandag</th><td>[08:00 tot 17:00]</td></tr>
+                <tr><th scope="row">Dinsdag</th><td>[08:00 tot 17:00]</td></tr>
+                <tr><th scope="row">Woensdag</th><td>[08:00 tot 17:00]</td></tr>
+                <tr><th scope="row">Donderdag</th><td>[08:00 tot 17:00]</td></tr>
+                <tr><th scope="row">Vrijdag</th><td>[08:00 tot 17:00]</td></tr>
+                <tr><th scope="row">Zaterdag</th><td>[Op afspraak]</td></tr>
+                <tr><th scope="row">Zondag</th><td>[Gesloten]</td></tr>
+            </tbody>
+        </table>
+            </section>
+                <section class="kaart">
+                <h2>Hoe ons vinden</h2>
+                <p>[Hier komt later een Google Maps-kaart]</p>
+            </section>
 
     </main>
     <footer>
