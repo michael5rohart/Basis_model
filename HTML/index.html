@@ -1,29 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>home | [naam zaak]</title>
 </head>
 <body>
     <a href="#inhoud">Ga naar inhoud</a>
     <header>
-        <div>
-            <img id="logo" src="/IMG/logo.jpg" alt="logo">
-            <nav>
-               <ul>
-                <li><a href="index.html" aria-current="page">home</a></li>
-                <li><a href="realisaties.html">realisaties</a></li>
-                <li><a href="diensten.html">diensten</a></li>
-                <li><a href="over-ons.html">over ons</a></li>
-                <li><a href="contact.html">contact</a></li>
-               </ul> 
-            </nav>
-        </div>
+        <a href="index.html" class="logo-container">
+             <img id="logo" src="../IMG/logo.jpg" alt="logo [naam zaak]">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="diensten.html">Diensten</a></li>
+                <li><a href="realisaties.html">Realisaties</a></li>
+                <li><a href="over-ons.html">Over ons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+       
     </header>
-    <main>
+    <main id="inhoud">
+        <section class="hero">
+            <h1>[slogan of naam zaak]</h1>
+            <p>[korte beschrijving van wat de zaak doet]</p>
+            <a href="contact.html">vraag een offerte aan</a> 
+        </section>
 
+        <section class="diensten">
+            <h2>Onze diensten</h2>
+            <article id="item1">
+                <h3>[dienst 1]</h3>
+                <p>[korte uitleg]</p> 
+            </article>
+            <article id="item2">
+                <h3>[dienst 2]</h3>
+                <p>[korte uitleg]</p>
+            </article>
+            <article id="item3">
+                <h3>[dienst 3]</h3>
+                <p>[korte uitleg]</p>
+                <a href="diensten.html">Alle diensten</a>
+            </article>
 
+        </section>
+        <section class="realisaties">
+            <h2>Realisaties</h2>
+            <figure>
+                <img src="../IMG/logo.jpg" alt="[beschrijving foto]">
+                <figcaption>[titel project]</figcaption>
+            </figure>
+            <a href="realisaties.html">Bekijk alle realisaties</a>
+        </section>
+
+        <section class="getuigenissen">
+            <h2>Wat klanten zeggen</h2>
+            <blockquote>
+                <p>citaat klant</p>
+                <cite>naam klant</cite>
+            </blockquote>
+        </section>
+
+        <section class="cta">
+            <h2>Klaar voor u project?</h2>
+            <a href="contact.html">neem contact op</a>
+        </section>
     </main>
     <footer>
         <address>
